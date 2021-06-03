@@ -1,0 +1,3 @@
+# Strategy
+
+O _Strategy_, em geral, é utilizado quando a operação realizada por um objeto depende de atributos ou métodos de outro objeto. Por exemplo, uma calculadora de impostos depende, por um lado, de um valor de orçamento e, por outro, de uma lógica de cálculo específico que varia de acordo com o imposto, como o INSS e o ICMS. Sendo assim, uma boa opção é que o objeto do tipo imposto tenha uma interface, isto é, um método 'calcular' com uma mesma assinatura, cuja implementação deve variar de acordo com cada imposto. Isso evita o acomplamento entre a calculadora e a lógica de cálculo de impostos, a qual, por sua vez, fica isolada e pode ser requerida por outras partes do sistema.
