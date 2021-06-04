@@ -1,0 +1,3 @@
+# Template Method
+
+O _Template Method_ é útil em situação em que várias subclasses precisam implementar lógicas específicas a fim de realizar alguma operação. A classe abstrata firma um acordo de como deve ser a assinatura de um método, o que ele deve retornar, e as subclasses são obrigadas a implementá-lo, cada uma do seu jeito. Neste exemplo, entre os impostos de uma calculadora de impostos, há uma classe abstrata (ImpostoComMinimaEMaximaTaxacao) que determina a obrigatoriedade da implementação de alguns métodos para as subclasses, através do decorator abstractmethod.
