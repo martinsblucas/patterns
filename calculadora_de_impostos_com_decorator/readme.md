@@ -1,0 +1,3 @@
+# Decorator
+
+O _Decorator_ é um padrão de projeto que pode ser aplicado quando o comportamento de determinado método ou função precisa ser composto por um outro comportamento. No caso da calculadora de impostos, é necessário para o caso em que determinado imposto precise ser aplicado em conjunto com outro imposto. Isto é, além de calcular o seu próprio valor, o método calcular também precisa retornar o valor de um outro imposto, que pode ser recebido como parâmetro pelo método construtor das subclasses de Imposto. Além disso, há ainda o _Decorator_ nativo do Python, uma implementação própria do Python para o pattern em questão.
