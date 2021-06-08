@@ -1,0 +1,3 @@
+# Builder
+
+O _Builder_ é um padrão de projeto para auxiliar na construção de objetos um pouco mais complexos, como a nota fiscal usada como neste exemplo. Com Python, aplicar este pattern pode resultar em _over-engineer_. Isso porque ele foi pensado para linguagens em que os argumentos dos métodos não são nomeados, e que, por isso, precisam ser passados na mesma ordem da assinatura. É o caso, por exemplo, do PHP antes da versão 8.
