@@ -1,4 +1,4 @@
-from orcamento import Orcamento, Item
+from .orcamento import Orcamento, Item
 
 
 class CalculadoraDeImpostos:

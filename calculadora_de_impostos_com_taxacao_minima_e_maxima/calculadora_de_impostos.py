@@ -1,5 +1,5 @@
-from orcamento import Orcamento, Item
-from impostos import ISS, ICMS, IOF, IPI
+from .orcamento import Orcamento, Item
+from .impostos import ISS, ICMS, IOF, IPI
 
 
 class CalculadoraDeImpostos:

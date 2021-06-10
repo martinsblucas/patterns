@@ -1,4 +1,5 @@
-from impostos import ISS, ICMS
+from .impostos import ISS, ICMS
+from .orcamento import Orcamento
 
 
 class CalculadoraDeImpostos:
@@ -17,7 +18,6 @@ class CalculadoraDeImpostos:
 
 
 if __name__ == '__main__':
-    from orcamento import Orcamento
     calculador = CalculadoraDeImpostos()
     orcamento = Orcamento(500)
     calculador.realiza_calculo(orcamento, ISS())

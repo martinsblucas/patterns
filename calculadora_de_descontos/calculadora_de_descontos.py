@@ -1,5 +1,5 @@
-from orcamento import Orcamento, Item
-from descontos import DescontoPorMaisDeCincoItens, DescontoPorMaisDeQuinhentosReais, SemDesconto
+from .orcamento import Orcamento, Item
+from .descontos import DescontoPorMaisDeCincoItens, DescontoPorMaisDeQuinhentosReais, SemDesconto
 
 
 class CalculadoraDeDescontos:
