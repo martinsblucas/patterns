@@ -1,0 +1,3 @@
+# Observer
+
+O _Observer_ é um padrão de projeto adequado quando um evento ocorrido no sistema precisa desencadear uma série de ações. Ou seja, alguns observadores de um determinado evento precisam ser enfileirados. É um padrão que ajuda no desacoplamento entre a classe principal e as ações, que podem aumentar, diminuir e eventualmente serem reaproveitadas por outras partes do sistema. Neste caso, uma lista de funções que simulam ações no sistema é passada como argumento para o construtor da Nota Fiscal. Na implementação, cada uma dessas funções é executada toda vez que uma nota fiscal é instanciada.
