@@ -1,0 +1,3 @@
+# Memento
+
+O _Memento_ pode ser um bom padrão quando um determinado objeto precisa guardar um histórico de versões de si mesmo, podendo até mesmo ser restaurado a uma destas. Nesse exemplo, um contrato tem sua situação modificada de "Novo" para "Em Andamento" e um novo termo é adicionado. Salvamos o histórico no início e agora. Portanto, ao restaurarmos para o índice 0 da lista, essas modificações terão desaparecido.
