@@ -1,0 +1,3 @@
+# Factory
+
+O _Factory_ se assemelha ao _Builder_ na medida em que visa solucionar um problema relacionado à construção de objetos. Nesse caso, ConnectionFactory isola a lógica de criação de conexão com um hipotético banco de dados MySql, o que permite que diversas partes do sistema que precisam se conectar ao banco instanciem uma nova ConnectionFactory e, em seguida, obtenham a conexão. Ao contrário do _Builder_, os métodos de uma _Factory_ não recebem parâmetros que dinamizem seu retorno. Portanto, este é sempre o mesmo em todas as partes do sistema.
