@@ -1,0 +1,3 @@
+# Interpreter
+
+O _Interpreter_ deve ser útil quando o domínio é composto por um conjunto de expressões que devem ser capazes de retornar seu próprio valor e de se combinar com outras expressões. É o caso, como nesse exemplo, de uma calculadora científica, com seus números e expressões. Toda instância de número ou de expressão precisa ser capaz de retornar seu valor real através do método "avaliar".
