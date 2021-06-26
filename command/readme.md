@@ -1,0 +1,3 @@
+# Command
+
+Com _Command_ abstrai-se operações que precisam ser inseridas em uma fila, pois não podem ser executadas de imediato, por qualquer que seja o motivo. Nesse exemplo, a classe Fila de Trabalho é parametrizada por ações que devem ser realizadas, não importa quais, desde que implementem o método executar, conforme declarado pela interface Comando. Esse método é chamado pela instância da Fila de Trabalho, durante a iteração implementada pelo método processar. Nesse caso, a fila é utilizada para executar alterações nos estados de alguns pedidos fictícios.
